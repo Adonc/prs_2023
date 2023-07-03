@@ -1,0 +1,39 @@
+Write SNP list and extract SNPs
+
+1. You will now use the information that you found on the PLINK website to create a command to extract a list of SNPs. Below is a list of requirements - try to do this before you go to the end of this section, where the full command is given and explained.
+
+    Set the D1D binary file as input ===> --bfile D1D
+
+    Set MAF threshold to 0.05 ===> --maf 0.05
+
+    Set SNP missingness threshold to 0.05 ===>- -geno 0.05
+
+    Add the appropriate command to write out a snp list containing only those SNPs with MAF above 0.05 and missingness below 0.05  ==> --write-snplist
+
+    Use ‘D1D_snps’ as the output file name ==> --out D1D_snps
+
+    After the command has run, check the output for your SNP list and look at it with the default viewer.
+
+
+  2. You will now use the SNP list that you have created to extract those SNPs and create a new set of data files in a single command.
+
+    Use the D1D binary file set as input ===> --bfile D1D
+
+    Find the command for extracting a set of SNPs listed in a file (hint: Data Management section) and combine it with a command that you learned above to create binary files ===> --extract D1D_snps.snplist
+
+    Use the output file name ‘D1D_MAF_MISS’ ===> 
+  complete code for 2 >>>  plink --bfile D1D --extract D1D_snps.snplist --make-bed --out D1D_MAF_MISS
+QC
+
+  Individual missingness
+  1 and 2. plink --bfile D1D --missing --out D1D_miss
+  snp missingness
+  2 the outpu files, lmiss conains information of snp missingness 
+  Hardy-Weinberg Equilibrium
+  code ===> plink --bfile D1D --hardy --out D1D_hardy
+  Allele frequencies
+  plink --bfile D1D --freq --out D1D_freq
+Apply individual missingness thresholds
+  
+  
+
