@@ -36,6 +36,8 @@ The course will begin with an overview of genome-wide association studies, an in
 **LMS**         
 [LMS Link](https://lms.wellcomeconnectingscience.org/)
 
+**DAILY FEEDBACK**        
+[Please provide anonymous feedback here](https://forms.gle/PNKS1y7SVYHJ6xC2A)
 
 **Day 1 - GWAS and Relevant Statistics**   
 [Day 1 Part A Online Manual](modules/Day1a.docx.md)     
@@ -56,8 +58,7 @@ The course will begin with an overview of genome-wide association studies, an in
 
 
 **Day 5 - Group Projects**  
-Group projects revealed on Day 3
-<!---- [Group Projects Online Manual](modules/Day5_Projects.md) ---->
+[Day 5 Project Description](modules/Day5_Projects.md)
 
 
 
